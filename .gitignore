@@ -1,0 +1,25 @@
+# Rust
+/target/
+Cargo.lock
+
+# SnapBack files
+/backups/
+/backup_info/
+config.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test files
+test_files/
+temp/

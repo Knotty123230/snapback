@@ -1,0 +1,25 @@
+[package]
+name = "snapback"
+version = "0.1.0"
+edition = "2021"
+authors = ["SnapBack Contributors"]
+description = "A fast, intelligent backup tool with content-aware storage"
+repository = "https://github.com/Knotty123230/snapback"
+license = "MIT"
+keywords = ["backup", "incremental", "restore", "files", "cli"]
+categories = ["command-line-utilities", "filesystem"]
+readme = "README.md"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+flate2 = "1.0"
+tar = "0.4"
+anyhow = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+walkdir = "2"
+glob = "0.3"
+uuid = { version = "1.0", features = ["v4"] }
+dirs = "5.0"
